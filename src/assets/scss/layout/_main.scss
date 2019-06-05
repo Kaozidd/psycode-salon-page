@@ -32,6 +32,21 @@
 			border-radius: _size(border-radius);
 			opacity: 0;
 
+			& .mapouter {
+				position:relative;
+				text-align:right;
+			}
+
+			& .gmap_canvas {
+				overflow:hidden;
+				background:none!important;
+
+			}
+
+			& .google-tagline {
+				font-size: 12px;
+			}
+
 			&.timeout {
 				display: none;
 			}

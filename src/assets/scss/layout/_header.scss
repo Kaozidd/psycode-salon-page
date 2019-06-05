@@ -50,11 +50,14 @@
 		.logo {
 			width: 5.5rem;
 			height: 5.5rem;
+			padding: 1px;
 			line-height: 5.5rem;
 			border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
 
 			.icon {
+				max-height: 100%;
+				opacity: 0.4;
 				&:before {
 					font-size: 2rem;
 				}
